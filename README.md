@@ -42,7 +42,7 @@ This will run Jenkins in detached mode with port forwarding and volume added. Yo
 ## Backing up data
 
 If you bind mount in a volume - you can simply back up that directory
-(which is jenkins_home) at any time.
+(which is jenkins_home) at any time .
 
 Using a bind mount is not recommended since it can lead to permission issues. Treat the jenkins_home directory as you would a database - in Docker you would generally put a database on a volume.
 
